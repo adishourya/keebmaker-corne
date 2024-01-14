@@ -22,9 +22,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q           &kp W    &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O  &kp P      &none
-&none  &kp LEFT_SHIFT  &kp A    &kp S         &kp D  &kp F        &kp G    &kp H  &kp J          &kp K  &kp L      &none
-&none  &kp LCTRL       &kp TAB  &kp Z         &kp X  &kp C        &kp V    &kp B  &kp N          &kp M  &kp GRAVE  &none
+&none  &kp Q           &kp W    &kp E         &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O  &kp P  &none
+&none  &kp LEFT_SHIFT  &kp A    &kp S         &kp D  &kp F        &kp G    &kp H  &kp J          &kp K  &kp L  &none
+&none  &kp LCTRL       &kp TAB  &kp Z         &kp X  &kp C        &kp V    &kp B  &kp N          &kp M  &none  &none
                                 &kp LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp LEFT_META
             >;
         };
@@ -52,10 +52,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE       &kp F4           &kp F5       &kp F6   &kp F7  &kp LBKT   &kp RBKT       &kp BACKSLASH  &none
-&none  &kp LEFT_SHIFT        &kp F12               &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans       &none    &none   &none      &kp SEMICOLON  &kp SQT        &none
-&none  &bt BT_NXT            &trans                &trans           &trans           &trans       &none    &none   &kp COMMA  &kp PERIOD     &kp SLASH      &none
-                                                   &kp LGUI         &trans           &kp SPACE    &kp RET  &trans  &kp RALT
+&none  &kp GRAVE       &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC    &kp K_MUTE       &kp F5       &kp F6   &kp F7  &kp LBKT   &kp RBKT       &kp BACKSLASH  &none
+&none  &kp LEFT_SHIFT  &kp F12               &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans       &none    &none   &none      &kp SEMICOLON  &kp SQT        &none
+&none  &bt BT_NXT      &trans                &trans           &trans           &trans       &none    &none   &kp COMMA  &kp PERIOD     &kp SLASH      &none
+                                             &kp LGUI         &trans           &kp SPACE    &kp RET  &trans  &kp RALT
             >;
         };
     };
